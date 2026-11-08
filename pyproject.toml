@@ -1,6 +1,6 @@
 [build-system]
-requires = ["hatchling"]
-build-backend = "hatchling.build"
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
 
 [project]
 name = "pyuicompose_htmltags"
@@ -16,7 +16,15 @@ dependencies = [
 ]
 
 [project.scripts]
-pyuicompose = "pyuicompose:main"
+pyuicompose = "pyuicomposehtmltag:main"
 
 [tool.uv.sources]
 pyuicompose = { git = "https://github.com/francivaldo4334/PyUiCompose.git" }
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["pyuicompose*"]
+
+[tool.setuptools.package-data]
+pyuicompose = ["*.py", "*/*.py"]
+
