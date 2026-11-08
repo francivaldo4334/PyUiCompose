@@ -1,5 +1,5 @@
 [project]
-name = "pyuicompose[htmltags]"
+name = "pyuicompose_htmltags"
 version = "0.1.0"
 description = "Implementation of PyUiCompose to html tags"
 readme = "README.md"
@@ -7,7 +7,12 @@ authors = [
     { name = "francivaldo4334", email = "francivaldodev@gmail.com" }
 ]
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "pyuicompose",
+]
 
 [project.scripts]
 pyuicompose = "core:main"
+
+[tool.uv.sources]
+pyuicompose = { git = "https://github.com/francivaldo4334/PyUiCompose.git" }
