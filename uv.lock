@@ -5,7 +5,7 @@ requires-python = ">=3.13"
 [[package]]
 name = "pyuicompose"
 version = "0.1.0"
-source = { git = "https://github.com/francivaldo4334/PyUiCompose.git#138cf3f6dbc3d81ddfd5feb71a19adcab17ec59f" }
+source = { git = "https://github.com/francivaldo4334/PyUiCompose.git#f4cac935158094c8e4b8ee3d9ed78835f7473337" }
 
 [[package]]
 name = "pyuicompose-htmltags"
