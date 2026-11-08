@@ -18,3 +18,4 @@ pyuicompose = "pyuicompose:main"
 
 [tool.setuptools.packages.find]
 where = ["."]
+include = ["pyuicompose*"]
