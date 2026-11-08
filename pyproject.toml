@@ -1,7 +1,7 @@
 [project]
-name = "pyuicompose"
+name = "pyuicompose[htmltags]"
 version = "0.1.0"
-description = "Interface to ui declarative"
+description = "Implementation of PyUiCompose to html tags"
 readme = "README.md"
 authors = [
     { name = "francivaldo4334", email = "francivaldodev@gmail.com" }
