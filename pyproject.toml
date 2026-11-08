@@ -16,7 +16,7 @@ dependencies = [
 ]
 
 [project.scripts]
-pyuicompose = "core.__init__.:main"
+pyuicompose = "pyuicompose:main"
 
 [tool.uv.sources]
 pyuicompose = { git = "https://github.com/francivaldo4334/PyUiCompose.git" }
