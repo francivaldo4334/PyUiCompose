@@ -1,6 +1,6 @@
-from core.decorators import composable
-from core.factories import component_factory
-from core.interfaces import IComponent, IModifier, Unit
+from pyuicompose.decorators import composable
+from pyuicompose.factories import component_factory
+from pyuicompose.interfaces import IComponent, IModifier, Unit
 
 
 @composable

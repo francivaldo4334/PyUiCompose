@@ -1,5 +1,5 @@
 from typing import Any, Callable, Dict
-from core.interfaces import IBuilder, IComponent, IModifier
+from pyuicompose.interfaces import IBuilder, IComponent, IModifier
 
 FACTORIES: Dict[str, Callable[..., Any]] = {}
 
@@ -25,7 +25,7 @@ def component_factory(kind: str, **props) -> IComponent:
     try:
         component_factory_class = _get(key)
     except RuntimeError:
-        from core.implements.component import Component
+        from pyuicompose.implements.component import Component
         component_factory_class = Component
 
     return component_factory_class(kind, **props)

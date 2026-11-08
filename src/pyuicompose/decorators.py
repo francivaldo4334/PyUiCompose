@@ -1,7 +1,7 @@
 from typing import Any, Callable, ParamSpec
 from functools import wraps
-from core.factories import builder_factory
-from core.interfaces import IComponent
+from pyuicompose.factories import builder_factory
+from pyuicompose.interfaces import IComponent
 
 P = ParamSpec("P")
 

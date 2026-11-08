@@ -1,6 +1,6 @@
 from typing import Any, Dict, List
-from core.interfaces import IComponent, IModifier
-from core import runtime
+from pyuicompose.interfaces import IComponent, IModifier
+from pyuicompose import runtime
 
 
 class Component(IComponent):

@@ -10,7 +10,7 @@ requires-python = ">=3.13"
 dependencies = []
 
 [project.scripts]
-pyuicompose = "core:main"
+pyuicompose = "pyuicompose:main"
 
 [tool.setuptools.packages.find]
 where = ["."]
