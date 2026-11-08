@@ -16,6 +16,10 @@ dependencies = []
 [project.scripts]
 pyuicompose = "pyuicompose:main"
 
+
 [tool.setuptools.packages.find]
-where = ["."]
+where = ["src"]
 include = ["pyuicompose*"]
+
+[tool.setuptools.package-data]
+pyuicompose = ["*.py", "*/*.py"]

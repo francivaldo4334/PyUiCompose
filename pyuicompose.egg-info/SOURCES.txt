@@ -1,7 +1,0 @@
-README.md
-pyproject.toml
-pyuicompose.egg-info/PKG-INFO
-pyuicompose.egg-info/SOURCES.txt
-pyuicompose.egg-info/dependency_links.txt
-pyuicompose.egg-info/entry_points.txt
-pyuicompose.egg-info/top_level.txt
