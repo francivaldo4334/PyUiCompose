@@ -1,0 +1,7 @@
+Metadata-Version: 2.4
+Name: pyuicompose
+Version: 0.1.0
+Summary: Interface to ui declarative
+Author-email: francivaldo4334 <francivaldodev@gmail.com>
+Requires-Python: >=3.13
+Description-Content-Type: text/markdown
