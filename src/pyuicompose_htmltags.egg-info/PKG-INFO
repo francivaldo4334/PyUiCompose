@@ -1,0 +1,8 @@
+Metadata-Version: 2.4
+Name: pyuicompose_htmltags
+Version: 0.1.0
+Summary: Implementation of PyUiCompose to html tags
+Author-email: francivaldo4334 <francivaldodev@gmail.com>
+Requires-Python: >=3.13
+Description-Content-Type: text/markdown
+Requires-Dist: pyuicompose
